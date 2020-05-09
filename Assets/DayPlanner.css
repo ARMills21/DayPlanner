@@ -1,0 +1,94 @@
+html{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: 15px;
+  padding: 10px;
+  line-height: 1;
+}
+
+.jumbotron{
+  text-align: center;
+  font-weight: 200;
+  background-color: white;
+  padding: 2rem 1rem 1rem 1rem;
+  border-bottom: 10px solid black;
+  margin: 2rem;
+}
+
+.display-4 {
+  display: inline-block;
+  font-weight: 350;
+}
+  
+.dayplanner-container {
+  display: contents;
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+  }
+
+.text {
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0;     
+  height: 38px;     
+  margin-right: 16px;
+  margin-left: 16px;
+  padding: 5px;
+  
+}
+
+p.time {
+  height: inherit;  
+  border-top: dotted 1.5px lightgrey;    
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  width: -webkit-fill-available;
+  padding: 0;
+}
+
+
+.btn.saveBtn {
+  display: inline-block; 
+  background: darkgrey;
+  padding: 2px;
+  width: fit-content;
+  border: 2px solid darkgray;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  flex: none;
+}
+
+.present {
+  background-color: lightgoldenrodyellow; 
+  outline: inherit;
+}
+
+.past {
+  background-color:lightgray;
+  outline: inherit;
+} 
+
+.future {
+  background-color: #7db6f0;
+  outline: inherit;
+}
